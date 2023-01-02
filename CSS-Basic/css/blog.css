@@ -26,4 +26,8 @@ div p {
 .inline_element_test {
   border: 1px solid red;
   width: 100px;
+  height: 2rem;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5));
+  background-color: aliceblue;
+  background-blend-mode: multiply;
 }
