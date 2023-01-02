@@ -1,0 +1,29 @@
+div p {
+  text-align: justify;
+  padding: 0rem 0.5rem 0rem;
+}
+
+.header {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  border: 2px dotted rebeccapurple;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: cursive;
+  padding-top: 0.5rem;
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url(../images/NicePng_lizard-png_1003854.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-position: right; */
+  background-color: gray;
+  background-blend-mode: color-dodge;
+  text-decoration: underline wavy;
+}
+
+.inline_element_test {
+  border: 1px solid red;
+  width: 100px;
+}
