@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+  <style>
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Pitha Shop</h2>
+
+  <form action="">
+
+    <label for="name">Your Name:
+      <input type="text" name="name" id="name" placeholder="type your name">  
+    </label>
+
+    <label for="email">
+      Your Email:
+      <input type="email" name="email" id="email" placeholder="type your email">
+    </label>
+
+    <label for="mobile">Your Mobile No:
+      <input type="number" id="mobile" placeholder="type your number">
+    </label>
+
+    <fieldset>
+      <legend>
+        Pick Your Pitha
+      </legend>
+
+      <label for="chitoy">
+        <input type="radio" name="pitha" id="chitoy">
+        Chitoy Pitha
+      </label>
+
+      <label for="vapa">
+        <input type="radio" name="pitha" id="vapa">
+        Vapa Pitha
+      </label>
+
+      <label for="pua">
+        <input type="radio" name="pitha" id="pua">
+        Pua Pitha
+      </label>
+
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+      <legend>
+        Pick Your Vhorta
+      </legend>
+
+      <label for="shorisa">
+        <input type="checkbox" name="vhorta" id="shorisa">
+        Shorisa Vhorta
+      </label>
+
+      <label for="dhonia">
+        <input type="checkbox" name="vhorta" id="dhonia">
+        Dhonia Vhorta
+      </label>
+
+      <label for="morich">
+        <input type="checkbox" name="vhorta" id="morich">
+        Morich Vhorta
+      </label>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Special Inst:</legend>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+    </fieldset>
+
+    <input type="reset" value="Reset">
+
+    <input type="submit" value="Submit">
+
+
+
+  </form>
+</body>
+</html>
