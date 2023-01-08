@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overflow</title>
+  <style>
+    .mini-mini {
+      width: 200px;
+      border: 1px solid aqua;  
+      margin-bottom: 1rem;
+    }
+    .short-text {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-size: 2rem;
+      padding: .5rem;
+      
+    }
+    .mega-box {
+      width: 500px;
+      height: 200px;
+      border: 2px solid red;
+      overflow-y: scroll;
+      margin-bottom: 1rem;
+    }
+    .small-box {
+      width: 500px;
+      height:100px;
+      border: 1px solid red;
+      overflow: scroll;
+      /* to remove side scroll bar */
+      overflow-x: hidden;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="mini-mini">
+    <p class="short-text" title="If you want get money,first bkash me">If you want get money,first bkash me</p>
+  </div>
+  <div class="mega-box">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam animi sapiente optio cum id quis harum. Molestias fugit excepturi voluptates perspiciatis minima unde fuga delectus beatae, aspernatur consequatur officiis. Consequatur, saepe quas eveniet ab odio totam. Porro id, facere quam quo ducimus expedita hic amet in fugit doloremque nisi! Commodi deleniti tenetur temporibus porro veritatis. Doloribus, voluptatem? Vel consequatur autem totam maxime vitae odit magnam alias. Nisi corrupti, odit commodi eveniet explicabo fugit vero animi nam? Numquam hic, voluptatum repellendus neque molestiae sequi optio minima animi illum dolor dicta repudiandae possimus aliquam error! Culpa enim doloremque eius, recusandae est quisquam quod. Tempore at vitae maxime nisi ducimus mollitia modi neque illo cum provident, ullam eriam quod? Quam ex illo dolorum incidunt quaerat doloribus obcaecati voluptas debitis repellat. Reprehenderit sunt at assumenda neque fuga! Omnis dolorem  delectus excepturi? Soluta repellendus optio cupiditate ipsum facere laborum, molestiae illo natus, aliquam, quos voluptatem. Sed molestiae quod est, Doloribus, voluptatem? Vel consequatur autem totam maxime vitae odit magnam alias. Nisi corrupti, odit commodi eveniet explicabo fugit vero animi nam? Numquam hic, voluptatum repellendus neque molestiae sequi optio minima animi illum dolor dicta repudiandae possimus aliquam error! Culpa enim doloremque eius, recusandae est quisquam quod. Tempore at vitae maxime nisi ducimus mollitia modi neque illo cum provident, ullam eriam quod? Quam ex illo dolorum incidunt quaerat doloribus obcaecati voluptas debitis repellat. Reprehenderit sun</p>
+  </div>
+  <div class="small-box">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam animi sapiente optio cum id quis harum. Molestias fugit excepturi voluptates perspiciatis minima unde fuga delectus beatae, aspernatur consequatur officiis. Consequatur, saepe quas eveniet ab odio totam. Porro id, facere quam quo ducimus expedita hic amet in fugit doloremque nisi! Commodi deleniti tenetur temporibus porro veritatis. Doloribus, voluptatem? Vel Obcaecati debitis cumque ratione, aliquam suscipit nam ex, nulla natus sunt laboriosam iusto iure , repellendus ab quam esse voluptate sa assumenda labore hic, pariatur totam neque unde debitis saepe excepturi alias repudiandae, id sequi deleniti quae numquam tempora suscipit, voluptatem repellendus dolorum!</p>
+  </div>
+</body>
+</html>
