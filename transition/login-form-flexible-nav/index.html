@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <script
+      src="https://kit.fontawesome.com/f32d091022.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .form-wrapper {
+        display: flex;
+        justify-content: center;
+        border: 2px solid;
+        margin-top: 1rem;
+        background-color: darkgrey;
+        padding: 1rem;
+      }
+      .login-form {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+      }
+      .login-form input {
+        margin-top: 1rem;
+        padding: 0.5rem 0.5rem;
+        font-size: 1.5rem;
+        border-radius: 0.5rem;
+      }
+      .login-form input[type="submit"] {
+        border: 0;
+        font-weight: 700;
+      }
+      .nav {
+        text-decoration: none;
+        color: black;
+        margin-right: 0.5rem;
+        background-color: antiquewhite;
+        padding: 0.5rem;
+        font-weight: 700;
+        border-radius: 0.5rem;   
+      }
+      .nav-wrapper {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(13, 112, 199);
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-wrapper">
+        <span
+          ><a href="" class="nav">Home</a>
+          <a href="" class="nav">Dashboard</a>
+          <a href="" class="nav">Inventory</a>
+          <a href="" class="nav">Contact</a>
+          </span>
+        <span>
+          <a href="" class="nav"><i class="fa-regular fa-user"></i></a>
+          <a href="" class="nav"
+          ><i class="fa-solid fa-right-from-bracket"></i
+        ></a>
+        </span>
+      </nav>
+    </header>
+    <section class="form-wrapper">
+      <form action="" class="login-form">
+        <h2>Login First</h2>
+        <input
+          type="email"
+          name="email"
+          id=""
+          placeholder="type your email"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          id=""
+          placeholder="type your password"
+          required
+        />
+        <input type="submit" value="Login" />
+      </form>
+    </section>
+  </body>
+</html>

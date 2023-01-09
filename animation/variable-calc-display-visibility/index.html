@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>css</title>
+  <style>
+    :root {
+      --single-border: 1px solid red;
+      --primary-color: rgb(36, 100, 70);
+      --margin-bottom: 0.5rem;
+      --font-weight: 700;
+      --font-size: 2rem;
+      --padding: 0.5rem;
+    }
+
+    .box {
+      width: calc(100% - 500px);
+      height: 100px;
+      border: var(--single-border);
+      margin-bottom: var(--margin-bottom);
+      color: var(--primary-color);
+      font-weight: var(--font-weight);
+      font-size: var(--font-size);
+      text-align: center;
+      padding: var(--padding);
+    }
+    #box-3 {
+      display: none;
+    }
+    #box-2 {
+      visibility: hidden;
+    }
+  </style>
+</head>
+<body>
+  <h1>css custom property and use var, calc, visibility hidden vs display none</h1>
+  <div class="box" id="box-1">box-1</div>
+  <div class="box" id="box-2">box-2</div>
+  <div class="box" id="box-3">box-3</div>
+  <div class="box" id="box-4">box-4</div>
+</body>
+</html>
