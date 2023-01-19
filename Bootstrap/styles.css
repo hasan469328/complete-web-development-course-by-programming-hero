@@ -1,0 +1,25 @@
+.text-black {
+  --bs-text-opacity: 0.5;
+  color: brown!important;
+  
+}
+.text-black .img {
+  background-image: var(--bs-gradient);
+}
+.bg-primary-subtle {
+  background-color: gray!important;
+}
+button {
+  display: block;
+  margin: 10px auto;
+}
+.div {
+  width: 100px;
+  height: 100px;
+  --bs-border-opacity: 0.85;
+}
+.div1 {
+  width: 200px;
+  height: 100px;
+  --bs-border-opacity: 0.85;
+}
