@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-6 col-sm-3 fs-4 fw-bold bg-success">.col-6 .col-sm-3</div>
+        <div class="col-6 col-sm-3 fs-4 fw-bold bg-danger">.col-6 .col-sm-3</div>
+    
+        <!-- Force next columns to break to new line -->
+        <div class="w-100"></div>
+    
+        <div class="col-6 col-sm-3 fs-4 fw-bold bg-primary">.col-6 .col-sm-3</div>
+        <div class="col-6 col-sm-3 fs-4 fw-bold bg-info">.col-6 .col-sm-3</div>
+      </div>
+    </div>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-6 col-sm-4 fs-4 fw-bolder bg-danger">.col-6 .col-sm-4</div>
+        <div class="col-6 col-sm-4 fs-4 fw-bolder bg-primary">.col-6 .col-sm-4</div>
+    
+        <!-- Force next columns to break to new line at md breakpoint and up -->
+        <div class="w-100 d-none d-md-block"></div>
+    
+        <div class="col-6 col-sm-4 fs-4 fw-bolder bg-info">.col-6 .col-sm-4</div>
+        <div class="col-6 col-sm-4 fs-4 fw-bolder bg-success">.col-6 .col-sm-4</div>
+      </div>
+    </div>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col order-1 fs-4 bg-primary">
+          First in DOM, no order applied
+        </div>
+        <div class="col fs-4 bg-secondary">
+          Second in DOM, with a larger order
+        </div>
+        <div class="col order-2 fs-4 bg-success">
+          Third in DOM, with an order of 1
+        </div>
+      </div>
+    </div>
+    <!-- offset ? -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-md-3 fs-4 fw-bold fst-italic text-white bg-primary">column1</div>
+
+        <div class="col-sm-4 col-md-3 fs-4 fw-bold fst-italic text-white bg-secondary offset-md-1">column2</div>
+
+        <div class="col-sm-4 col-md-3 fs-4 fw-bold fst-italic text-white bg-secondary offset-md-2">column2</div>
+      </div>
+    </div>
+
+    <div class="container text-center bg-danger" style="height: 200px;">
+      <div class="row mb-3">
+        <div class="col-md-4 fs-4 fw-bold bg-primary">.col-md-4</div>
+        <div class="col-md-4 ms-auto fs-4 fw-bold bg-success">.col-md-4 .ms-auto</div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-md-3 ms-md-auto fs-4 fw-bold bg-primary">.col-md-3 .ms-md-auto</div>
+        <div class="col-md-3 ms-md-auto fs-4 fw-bold bg-info">.col-md-3 .ms-md-auto</div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-auto me-auto fs-4 fw-bold bg-secondary">.col-auto .me-auto</div>
+        <div class="col-auto me-auto fs-4 fw-bold bg-warning">.col-autotooooooooooooooooo</div>
+      </div>
+    </div>
+
+    <!-- standalone column class with float  -->
+    <div class="clearfix p-3">
+      <img class="img-fluid" src="../images/phone1.png" class="col-md-6 float-md-start mb-3 mt-3 me-3 ms-md-3" alt="...">
+    
+      <p class="mt-3">
+        A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+      </p>
+    
+      <p>
+        As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+      </p>
+    
+      <p>
+        And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+      </p>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur soluta consectetur inventore, ipsa iusto, quaerat est eum id, debitis tempora. Enim vel praesentium magnam molestias et saepe dolore? Et omnis aut autem molestiae officia optio a quasi ullam id modi. Mollitia ex expedita repellendus animi. Ad aliquid culpa accusamus ipsa architecto. Maiores aspernatur eveniet, sed vel neque dicta autem nostrum, illum libero sapiente minus amet fugiat porro natus magni itaque delectus rem mollitia molestiae, ab quaerat ducimus eos. Debitis, dolore voluptatem quo totam tempore quibusdam repellat dicta itaque laudantium consectetur neque harum doloremque deserunt! Sed suscipit nulla natus ut aspernatur qui harum iure cumque enim ratione voluptatum nisi asperiores rem reprehenderit, repudiandae cupiditate obcaecati distinctio voluptatem quia est omnis. Pariatur voluptate voluptatem atque soluta. Distinctio itaque, perspiciatis a autem at mollitia ipsa rem eos dolores dicta magnam adipisci deleniti dolorem sed dolore. Consectetur beatae, sunt itaque quaerat inventore placeat et delectus impedit voluptas iure ratione nesciunt quidem officia quae voluptatibus doloremque molestiae laudantium sit. Voluptatibus repellat unde cum id rerum explicabo dolores quidem necessitatibus tempora labore, consequatur tempore, nam veniam nisi quas suscipit aliquam ducimus nihil maxime, sed earum eum reiciendis. Autem similique vero dicta, esse modi maiores, odit reiciendis optio placeat, dolorem mollitia officiis. Reiciendis quibusdam cupiditate, molestiae laboriosam quam ex! Error officia hic suscipit distinctio, blanditiis tempore ipsa praesentium quaerat ratione sapiente? Corporis repudiandae minus consectetur impedit expedita. Doloribus dicta porro officia. Esse, expedita. Laborum quaerat optio necessitatibus obcaecati incidunt? Ab, iste enim quisquam fugit ut voluptate rem natus eum harum impedit molestiae sed praesentium nihil repellendus accusamus sint cumque debitis veritatis quia aspernatur autem velit doloremque ad. Nihil quae vitae beatae distinctio, rem ab laudantium saepe inventore doloribus alias ipsa, nam reprehenderit, assumenda error sunt! Quas unde at inventore excepturi, explicabo ut doloribus officia sunt accusamus aliquam temporibus sequi similique illum odit dolores, cupiditate natus facilis aspernatur repellat obcaecati delectus sapiente earum ducimus! Explicabo doloribus optio quasi cum ea vero velit, fuga odio dolorem architecto aliquam mollitia ab excepturi saepe suscipit iste libero sequi voluptate iure reiciendis minima! Magnam quaerat provident eius cupiditate et dolore, magni veritatis non similique hic expedita nam saepe explicabo ullam. Quia laboriosam explicabo tempora natus officiis quis beatae cum, soluta dolore corrupti porro ex. Labore totam sit exercitationem sint eaque eligendi itaque? Quis est officia non eum voluptate amet, possimus rerum esse veritatis animi reiciendis. Illum nostrum a nulla recusandae assumenda quasi adipisci! A ea labore ut quod? Officiis nulla, harum repellat commodi ducimus, laudantium maxime, excepturi dolores culpa sunt mollitia? Obcaecati officiis, ab, ullam voluptatibus, iure unde saepe dolorum excepturi architecto atque ea laudantium accusantium. Ullam provident velit placeat commodi voluptate mollitia eaque repellat? Natus, amet atque sunt molestiae excepturi enim error similique reprehenderit tempore nisi. Assumenda, dolore quas ea consectetur ratione natus consequatur, voluptate voluptatibus quo magnam rem. Quibusdam, fugit, quam omnis, provident doloremque libero iste numquam nobis aliquam voluptas delectus sunt? Nihil sed esse culpa quis aut error. Nihil libero possimus autem repellat cupiditate dolore amet exercitationem sint?</p>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
